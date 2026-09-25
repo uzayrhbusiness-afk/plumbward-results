@@ -1,0 +1,74 @@
+{
+ "examples": {
+  "bare": [
+   [
+    "A. Facts I'd stand behind on substance",
+    "- **Nathaniel Bagshaw Ward** (1791–1868), a London physician practising in Wellclose Square, in the East End dockland parishes. Fellow of the Linnean Society; later FRS.",
+    "v01-wardian-case",
+    "r2"
+   ],
+   [
+    "A. Facts I'd stand behind on substance",
+    "- **Ward's book.** *On the Growth of Plants in Closely Glazed Cases*, London: John Van Voorst, 1842; second edition 1852.",
+    "v01-wardian-case",
+    "r2"
+   ],
+   [
+    "Core narrative — high confidence",
+    "- **Stephen Coleridge**, honorary secretary of the National Anti-Vivisection Society, repeated the accusation publicly. Bayliss sued for libel and **won, November 1903**. Coleridge's costs were raised by public subscription through the *Daily News*. Bayliss put his damages into a physiology research fund at UCL.",
+    "v02-brown-dog-affair",
+    "r1"
+   ],
+   [
+    "Well-established core facts",
+    "- **February 1903** — William Bayliss performed a demonstration on a brown terrier before roughly sixty medical students at University College London. Ernest Starling had operated on the same dog some two months earlier; Henry Dale, then a research student, killed it at the end of the demonstration.",
+    "v02-brown-dog-affair",
+    "r2"
+   ],
+   [
+    "Well-established core facts",
+    "- **The witnesses** — Lizzy Lind af Hageby and Leisa Schartau, two Swedish anti-vivisection activists enrolled at the London School of Medicine for Women, attended and took notes. They published them in *The Shambles of Science: Extracts from the Diary of Two Students of Physiology* (1903), alleging the dog was conscious and inadequately anaesthetised — which would have breached the Cruelty to Animals Act 1876.",
+    "v02-brown-dog-affair",
+    "r2"
+   ],
+   [
+    "Well-established core facts",
+    "- **The statue** — Unveiled September 1906 in Latchmere Recreation Ground, Battersea; sculptor Joseph Whitehead; it took the form of a drinking fountain with a trough. The inscription named \"the 232 dogs vivisected at the same place during the year 1902\" and closed \"Men and Women of England, how long shall these Things be?\" The inscription is the single most quotable element and is reproduced in full in both book-length treatments below.",
+    "v02-brown-dog-affair",
+    "r2"
+   ]
+  ],
+  "with": [
+   [
+    "**Primary / technical**",
+    "- U.S. Weather Bureau, *Monthly Weather Review* and *Climatological Data*, September 1938 — advisory sequence, official casualty/damage figures.",
+    "v16-hurricane-1938-forecast",
+    "r2"
+   ],
+   [
+    "Bucket 1 — Analytically checkable (no source needed; these are yours to use)",
+    "**The geometry in most retellings is wrong.** To straddle the equator *and* the 180th meridian at once, a ship must lie diagonally across the intersection, putting roughly a quarter of her hull in each of four quadrants. The familiar \"bow in summer, stern in winter, bow in 1900, stern in 1899\" framing describes a bow–stern split doing both jobs at once, which is geometrically impossible. If she's heading due south along 180°, bow and stern split the equator but the whole ship sits *on* the meridian, not across it.",
+    "v19-ss-warrimoo",
+    "r1"
+   ],
+   [
+    "The claim as it circulates",
+    "SS *Warrimoo*, en route Vancouver→Sydney, is at 0°31′ N, 179°30′ W on 30 December 1899. Captain John D. S. Phillips has the navigator refine the fix and adjusts course and speed so that at midnight the ship lies exactly on the equator at exactly 180° longitude. Result: bow in the Southern Hemisphere, stern in the Northern; bow in 1 January 1900, stern in 31 December 1899 — two days, two months, two seasons, two years, two centuries, two hemispheres at once.",
+    "v19-ss-warrimoo",
+    "r2"
+   ]
+  ]
+ },
+ "bare": {
+  "lines": 63,
+  "unmarked_line": 44,
+  "unmarked_line_and_heading": 23,
+  "runs_with_unmarked": 15
+ },
+ "with": {
+  "lines": 36,
+  "unmarked_line": 14,
+  "unmarked_line_and_heading": 3,
+  "runs_with_unmarked": 3
+ }
+}

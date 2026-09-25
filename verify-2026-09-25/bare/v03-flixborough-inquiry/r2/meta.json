@@ -1,0 +1,7 @@
+{
+ "arm": "bare",
+ "case": "v03-flixborough-inquiry",
+ "run": 2,
+ "exit": "timeout",
+ "seconds": 330.0
+}

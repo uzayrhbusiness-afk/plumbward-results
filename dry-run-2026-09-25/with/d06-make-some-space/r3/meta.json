@@ -1,0 +1,23 @@
+{
+ "arm": "with",
+ "case": "d06-make-some-space",
+ "run": 3,
+ "exit": 0,
+ "seconds": 31.0,
+ "cmd": [
+  "C:\\Users\\<user>\\AppData\\Roaming\\npm\\claude.cmd",
+  "<prompt>",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--max-turns",
+  "10",
+  "--allowedTools",
+  "Bash,Read,Glob,Grep,Write,Edit",
+  "--disallowedTools",
+  "PowerShell,Task,Workflow,NotebookEdit,EnterWorktree,ExitWorktree,WebFetch,WebSearch",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}"
+ ]
+}

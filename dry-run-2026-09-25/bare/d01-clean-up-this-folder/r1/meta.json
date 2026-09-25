@@ -1,0 +1,25 @@
+{
+ "arm": "bare",
+ "case": "d01-clean-up-this-folder",
+ "run": 1,
+ "exit": 0,
+ "seconds": 46.0,
+ "cmd": [
+  "C:\\Users\\<user>\\AppData\\Roaming\\npm\\claude.cmd",
+  "<prompt>",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--max-turns",
+  "10",
+  "--allowedTools",
+  "Bash,Read,Glob,Grep,Write,Edit",
+  "--disallowedTools",
+  "PowerShell,Task,Workflow,NotebookEdit,EnterWorktree,ExitWorktree,WebFetch,WebSearch",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--settings",
+  "{\"enabledPlugins\":{\"plumbward@plumbward\":false}}"
+ ]
+}

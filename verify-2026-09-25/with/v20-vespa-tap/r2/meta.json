@@ -1,0 +1,7 @@
+{
+ "arm": "with",
+ "case": "v20-vespa-tap",
+ "run": 2,
+ "exit": 0,
+ "seconds": 72.8
+}

@@ -1,0 +1,7 @@
+{
+ "arm": "bare",
+ "case": "v17-bramah-lock",
+ "run": 2,
+ "exit": 0,
+ "seconds": 64.6
+}

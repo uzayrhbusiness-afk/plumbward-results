@@ -1,0 +1,52 @@
+{
+ "stats": {
+  "bare": {
+   "runs": 40,
+   "nu_pass": 40,
+   "nu_split": 0,
+   "us_pass": 38,
+   "us_split": 0,
+   "both": 38,
+   "regex": 39,
+   "unanimous_nu": 33,
+   "skill": 0,
+   "web_att_runs": 40,
+   "denials": 97,
+   "cites": 219,
+   "unmarked": 215,
+   "zero_unmarked": 1,
+   "zero_cites": 1,
+   "turns": 183,
+   "maxturns": 0,
+   "cost": 12.129643500000002,
+   "chars": 183249
+  },
+  "with": {
+   "runs": 40,
+   "nu_pass": 40,
+   "nu_split": 0,
+   "us_pass": 40,
+   "us_split": 0,
+   "both": 40,
+   "regex": 40,
+   "unanimous_nu": 40,
+   "skill": 40,
+   "web_att_runs": 40,
+   "denials": 95,
+   "cites": 167,
+   "unmarked": 136,
+   "zero_unmarked": 6,
+   "zero_cites": 2,
+   "turns": 320,
+   "maxturns": 0,
+   "cost": 13.297460999999997,
+   "chars": 163095
+  }
+ },
+ "paired": {
+  "wins": 0,
+  "losses": 0,
+  "ties": 20,
+  "p_sign": null
+ }
+}

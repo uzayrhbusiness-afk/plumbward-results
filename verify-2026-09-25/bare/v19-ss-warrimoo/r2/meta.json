@@ -1,0 +1,7 @@
+{
+ "arm": "bare",
+ "case": "v19-ss-warrimoo",
+ "run": 2,
+ "exit": "timeout",
+ "seconds": 330.0
+}

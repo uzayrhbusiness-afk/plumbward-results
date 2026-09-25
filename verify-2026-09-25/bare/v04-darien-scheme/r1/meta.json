@@ -1,0 +1,7 @@
+{
+ "arm": "bare",
+ "case": "v04-darien-scheme",
+ "run": 1,
+ "exit": 0,
+ "seconds": 80.0
+}

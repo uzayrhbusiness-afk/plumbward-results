@@ -1,0 +1,9 @@
+{
+ "name": "no-unmarked-citations",
+ "votes": [
+  "FAIL",
+  "PASS",
+  "PASS"
+ ],
+ "verdict": "PASS"
+}
