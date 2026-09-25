@@ -4,7 +4,7 @@ import io, json, os, re, html, math
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 D = os.path.join(HERE, "battery-verify")
-SITE = r"C:/Users/<user>/Desktop/WEBSITES/PLUMB_WARD_WEBSITE-fix/"
+SITE = r"C:/Users/uzayr/Desktop/WEBSITES/PLUMB_WARD_WEBSITE-fix/"
 G = [g for g in json.load(open(os.path.join(D, "grades.json"), encoding="utf-8")) if g.get("ok")]
 HA = json.load(open(os.path.join(D, "heading-aware.json"), encoding="utf-8"))
 MEASURED_ON = "25 September 2026"
@@ -206,7 +206,7 @@ page = """<!doctype html>
       <li><strong>It cannot separate kit-taught marking from ordinary hedging.</strong> Both arms saw the refusal. A model that says "I could not verify this" because it just watched its search get denied is behaving well, and the rubric rewards it in both arms.</li>
       <li><strong>The secondary measures are scripts, not a hand count.</strong> The examples above are there so you can judge the script. The traces hold every line.</li>
       <li><strong>Sourcing discipline, not accuracy.</strong> Correct facts stated without a printable citation were not penalised, in either arm.</li>
-      <li><strong>Provenance.</strong> The %(total)d traces, every judge vote, and the runner are kept with the kit's evaluation harness and are available on request. The <a href="/results/dry-run/">dry-run battery</a> is the one where the kit made a measurable difference.</li>
+      <li><strong>Provenance.</strong> The %(total)d traces, every judge vote, the runner and the case definitions are public: <a href="https://github.com/uzayrhbusiness-afk/plumbward-results">github.com/uzayrhbusiness-afk/plumbward-results</a>. The only edit to the traces is the replacement of the machine's home directory path with a placeholder. The <a href="/results/dry-run/">dry-run battery</a> is the one where the kit made a measurable difference.</li>
     </ul>
     <div class="foot-cta">
       <a class="btn ghost" href="/#measured">Back to the ledger</a>

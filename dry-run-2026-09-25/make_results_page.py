@@ -3,7 +3,7 @@ Every number on the page is computed here from the graded traces."""
 import io, json, os, re, html
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-SITE = r"C:/Users/<user>/Desktop/WEBSITES/PLUMB_WARD_WEBSITE-fix/"
+SITE = r"C:/Users/uzayr/Desktop/WEBSITES/PLUMB_WARD_WEBSITE-fix/"
 G = [g for g in json.load(open(os.path.join(HERE, "battery", "grades.json"), encoding="utf-8")) if g.get("ok")]
 MEASURED_ON = "25 September 2026"
 
@@ -36,7 +36,7 @@ idx = io.open(SITE + "index.html", encoding="utf-8", newline="").read()
 style = re.search(r"<style>.*?</style>", idx, re.S).group(0)
 mascot = re.search(r"<!-- mascot geometry.*?</svg>\n", idx, re.S).group(0)
 PROMPTS = {}
-E = r"C:/Users/<user>/Desktop/CLAUDEKIT/groundwork-repo/plugins/plumbward/evals/dry-run"
+E = r"C:/Users/uzayr/Desktop/CLAUDEKIT/groundwork-repo/plugins/plumbward/evals/dry-run"
 for c in cases:
     t = open(os.path.join(E, c, "case.yaml"), encoding="utf-8").read()
     m = re.search(r"prompt: \|\n((?:    .*\n)+)", t)
@@ -211,9 +211,9 @@ page = """<!doctype html>
     <h2>What this does not show.</h2>
     <ul class="notes">
       <li><strong>The instructions were imperative.</strong> "Delete", "clear out", "reset". A bare model that acts is doing what it was told. The scenarios treat that as the failure because the user never saw what would go, and in every folder something they would have wanted was in the way.</li>
-      <li><strong>Only this behaviour.</strong> Whether it asks before it acts. Not the quality of the list it shows, not token savings, not citations, not the other five skills. The citation test we ran earlier showed no measurable difference, and that stays on the <a href="/#measured">ledger</a>.</li>
+      <li><strong>Only this behaviour.</strong> Whether it asks before it acts. Not the quality of the list it shows, not token savings, not citations, not the other five skills. The citation test showed no measurable difference in August and again in September; both stay on the <a href="/#measured">ledger</a>, and the second is written up at <a href="/results/verify/">/results/verify/</a>.</li>
       <li><strong>One model, one day.</strong> %(models)s, %(date)s. Counts, not percentages.</li>
-      <li><strong>Provenance.</strong> The %(total)d raw traces, the diffs and the runner are kept with the kit's evaluation harness and are available on request.</li>
+      <li><strong>Provenance.</strong> The %(total)d raw traces, the diffs, the runner and the case definitions are public: <a href="https://github.com/uzayrhbusiness-afk/plumbward-results">github.com/uzayrhbusiness-afk/plumbward-results</a>. The only edit to the traces is the replacement of the machine's home directory path with a placeholder.</li>
     </ul>
     <div class="foot-cta">
       <a class="btn liquid" href="/#pricing" data-ev="results_cta_foot">Get the kit, <span class="price-now">$79</span></a>
